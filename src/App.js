@@ -20,6 +20,12 @@ import ModalExample from './component/Modal/ModalExample';
 import ModalExample2 from './component/Modal/ModalExample2';
 import CardExample1 from './component/cards/CardExample1';
 import CardListGorup from './component/cards/CardListGorup';
+import Carosel1 from './component/Carousel/Carosel1';
+import Carousel2 from './component/Carousel/Carousel2';
+import Dropdowns1 from './component/Dropdowns/Dropdowns1';
+import Dropdown2 from './component/Dropdowns/Dropdown2';
+import Dropdown3 from './component/Dropdowns/Dropdown3';
+
 
 
 
@@ -64,6 +70,19 @@ class App extends Component {
         <CardExample1/>
         <h1>React bootstrap card List Group</h1>
         <CardListGorup/>
+        <h1>Carousel Example</h1>
+        <Carosel1/>
+        <h1>Carousel Example 2</h1>
+
+        <Carousel2/>
+        <h1>Dropdown example 1</h1>
+        <Dropdowns1/>
+        <h1>Dropdwon example 2</h1>
+        <Dropdown2/>
+        <h1>Dropdwon example 3</h1>
+        <Dropdown3/>
+
+
         
       </div>
     );
