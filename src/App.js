@@ -25,6 +25,8 @@ import Carousel2 from './component/Carousel/Carousel2';
 import Dropdowns1 from './component/Dropdowns/Dropdowns1';
 import Dropdown2 from './component/Dropdowns/Dropdown2';
 import Dropdown3 from './component/Dropdowns/Dropdown3';
+import Dropdown4 from './component/Dropdowns/Dropdown4';
+import Dropdown5 from './component/Dropdowns/Dropdown5';
 
 
 
@@ -81,7 +83,10 @@ class App extends Component {
         <Dropdown2/>
         <h1>Dropdwon example 3</h1>
         <Dropdown3/>
-
+        <h1>Dropdwon example 4</h1>
+        <Dropdown4/>
+        <h1>Dropdown example 5</h1>
+        <Dropdown5/>
 
         
       </div>
