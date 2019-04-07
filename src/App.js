@@ -27,6 +27,12 @@ import Dropdown2 from './component/Dropdowns/Dropdown2';
 import Dropdown3 from './component/Dropdowns/Dropdown3';
 import Dropdown4 from './component/Dropdowns/Dropdown4';
 import Dropdown5 from './component/Dropdowns/Dropdown5';
+import ToggleAlert from './component/AlertComponents/ToggleAlert';
+import From1 from './component/Froms/From1';
+import From2 from './component/Froms/From2';
+import Form3 from './component/Froms/Form3';
+import Form4 from './component/Froms/Form4';
+import Form5 from './component/Froms/Form5';
 
 
 
@@ -40,13 +46,18 @@ class App extends Component {
         <GridSystem />
         <h1>Alert components</h1>
         <AlertComponents />
+        <h1>Alert example 2</h1>
         <AlertCoponent2 />
         <h1>Dismissing</h1>
         <DismissingAlert />
         <h1>Alert Success</h1>
         <SuccessAlert />
+        <h1>Alert Example 3</h1>
+        <ToggleAlert/>
         <h1>Badge example</h1>
         <Badge1 />
+
+        <h1>Button badge</h1>
         <ButtonBadge />
         <h1>Contextual variations</h1>
         <Contextualvariations />
@@ -87,8 +98,17 @@ class App extends Component {
         <Dropdown4/>
         <h1>Dropdown example 5</h1>
         <Dropdown5/>
-
-        
+        <h1>From Example 1</h1>
+        <From1/>
+        <h1>From example 2</h1>
+        <From2/>
+        <h1>Form Example 3</h1>
+        <Form3/>
+        <h1>Form example 4</h1>
+        <Form4/>
+        <h1>Form Example 5</h1>
+        <Form5/>
+        <h1>Form Example 6</h1>
       </div>
     );
   }
