@@ -33,6 +33,7 @@ import From2 from './component/Froms/From2';
 import Form3 from './component/Froms/Form3';
 import Form4 from './component/Froms/Form4';
 import Form5 from './component/Froms/Form5';
+import SlickCarousel from './component/Silk-Carousel/SlickCarousel';
 
 
 
@@ -109,6 +110,8 @@ class App extends Component {
         <h1>Form Example 5</h1>
         <Form5/>
         <h1>Form Example 6</h1>
+        <h1>Slick Example 1</h1>
+        <SlickCarousel/>
       </div>
     );
   }
